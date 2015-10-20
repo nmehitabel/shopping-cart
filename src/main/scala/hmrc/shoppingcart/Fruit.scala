@@ -1,5 +1,8 @@
 package hmrc.shoppingcart
 
+/**
+* Shopping cart item types
+*/
 sealed trait Fruit {
   def price: Int
 }
