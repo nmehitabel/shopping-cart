@@ -12,4 +12,8 @@ final case object Orange extends Fruit {
   val price: Int = 25
 }
 
+final case object Banana extends Fruit {
+  val price: Int = 35
+}
+
 case class Basket(items: List[Fruit])
